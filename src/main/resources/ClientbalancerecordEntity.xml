@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.example.demo.entity.ClientbalancerecordEntity">
+        <table name="clientbalancerecord" schema="invoicingsystem" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="clientsNumber">
+                <column name="clientsNumber"/>
+            </basic>
+            <basic name="month">
+                <column name="month"/>
+            </basic>
+            <basic name="lastMonthSBalance">
+                <column name="lastMonth'sBalance"/>
+            </basic>
+            <basic name="remittanceDate">
+                <column name="remittanceDate"/>
+            </basic>
+            <basic name="remittanceBalance">
+                <column name="remittanceBalance"/>
+            </basic>
+            <basic name="purchaseBalance">
+                <column name="purchaseBalance"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

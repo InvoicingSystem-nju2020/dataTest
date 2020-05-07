@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.example.demo.entity.OrderEntity">
+        <table name="order" schema="invoicingsystem" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="orderNumber">
+                <column name="orderNumber"/>
+            </basic>
+            <basic name="salesperson">
+                <column name="salesperson"/>
+            </basic>
+            <basic name="createTime">
+                <column name="createTime"/>
+            </basic>
+            <basic name="dealTime">
+                <column name="dealTime"/>
+            </basic>
+            <basic name="client">
+                <column name="client"/>
+            </basic>
+            <basic name="writeAnInvoice">
+                <column name="writeAnInvoice"/>
+            </basic>
+            <basic name="goodsNumber">
+                <column name="goodsNumber"/>
+            </basic>
+            <basic name="finalPrice">
+                <column name="finalPrice"/>
+            </basic>
+            <basic name="numbers">
+                <column name="Numbers"/>
+            </basic>
+            <basic name="totalAmount">
+                <column name="totalAmount"/>
+            </basic>
+            <basic name="typeOfPayment">
+                <column name="typeOfPayment"/>
+            </basic>
+            <basic name="typeOfShipping">
+                <column name="typeOfShipping"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
