@@ -32,13 +32,25 @@
             <version>8.0.15</version>
         </dependency>
 
+        <!-- junit依赖 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
         <!-- 添加hibernate依赖包 -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.3.7.Final</version>
         </dependency>
-
+        <!-- fastJason  -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.1.23</version>
+            </dependency>
         <!-- spring data JPA  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
